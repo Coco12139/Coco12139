@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te Amo</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f9f9f9;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        .heart {
+            font-size: 100px;
+            color: red;
+            margin-bottom: 20px;
+        }
+        .message {
+            font-size: 24px;
+            color: #333;
+            margin-top: 20px;
+            display: none;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heart">&#10084;&#65039;</div>
+        <button class="button" onclick="showMessage()">Abrir</button>
+        <div id="message" class="message">
+            Te amo con todo mi corazón. Cada momento a tu lado es invaluable para mí, y no puedo imaginar mi vida sin ti. Tu sonrisa ilumina mis días, y cada instante contigo es un regalo precioso. Quiero pasar el resto de mi vida a tu lado, compartiendo sueños, risas y aventuras. Eres mi todo y siempre lo serás.
+        </div>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById('message').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
+http://localhost:26543/sin+t%C3%ADtulo
